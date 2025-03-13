@@ -18,5 +18,8 @@ A very very basic POC for speedtest with Prometheus and Grafana
 ## Basic wiring
 - Everything is exposed onto the host, we're assuming nothing else is running on TCP 9000, 3000 and 9469
 - The Docker Compose file specifies `securityisimportant` as the Grafana password
-- There's a 
+- There's a Prometheus data source added called Prometheus - Datasources.yaml
+
+All you need to do now is create a Dashboard, I figured you'd want to tinker with it anyway so I didn't bother saving one
+
 ![img.png](img.png)
