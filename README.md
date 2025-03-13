@@ -14,6 +14,7 @@ A very very basic POC for speedtest with Prometheus and Grafana
 ## Basic debugging
 - `docker ps` - there should be three containers
 - Are both the prometheus endpoints healthy? `http://localhost:9000/targets`
+- Test the datasource is active in http://localhost:3000/connections/datasources
 
 ## Basic wiring
 - Everything is exposed onto the host, we're assuming nothing else is running on TCP 9000, 3000 and 9469
